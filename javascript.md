@@ -203,8 +203,17 @@ let oppositeValue = !lateToWork;
 // => false
 console.log(oppositeValue); 
 ```
-
-
+#### Nullish Coalescing Operator ??
+``` javascript
+null ?? 'foo' // foo
+undefined ?? 'foo' // foo
+0 ?? 'foo' // 0
+```
+#### Optional chaining  ?.
+``` javascript
+obj?.prop // undefined
+obj?.prop?.subprop // undefined
+```
 
 ### else if
 
